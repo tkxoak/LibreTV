@@ -20,7 +20,7 @@ const SITE_CONFIG = {
     version: '1.0.3'
 };
 
-const CUSTOMER_SITES = {
+const API_SITES = {
 qiqi: {
 api: 'https://www.qiqidys.com/api.php/provide/vod',
 name: '七七资源',
@@ -327,14 +327,14 @@ name: '快云|点播',
 },
 };
 // API站点配置
-const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    }
+//const API_SITES = {
+//    testSource: {
+//        api: 'https://www.example.com/api.php/provide/vod',
+//        name: '空内容测试源',
+//       adult: true
+//    }
     //ARCHIVE https://telegra.ph/APIs-08-12
-};
+//};
 
 // 定义合并方法
 function extendAPISites(newSites) {
